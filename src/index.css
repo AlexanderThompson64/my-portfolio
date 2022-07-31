@@ -1,90 +1,158 @@
 @font-face {
-    font-family: anak;
-    src: url(/src/assets/fonts/Anek_Malayalam/static/AnekMalayalam/AnekMalayalam-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: Pacifico;
-    src: url(/src/assets/fonts/Pacifico/Pacifico-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: Dancing;
-    src: url(/src/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
-  }
+  font-family: anak;
+  src: url(/src/assets/fonts/Anek_Malayalam/static/AnekMalayalam/AnekMalayalam-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(/src/assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: Dancing;
+  src: url(/src/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
 
 /* Applies to body of entire app */
 body {
-    background-color: #0B192E;
+  background-color: #0b192e;
 }
 
 /* Mobile first design*/
 /* Styling for navigation links for entire app */
 .nav-link {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 /* Styling for Navbar component with media queries */
-/* Navbar start */
-
-
+/* Navbar Styling Start */
 
 .navbar-brand {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .offcanvas-title {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .offcanvas-body {
-    font-size: 28px;
+  font-size: 28px;
 }
 
-
-@media screen and (min-height: 600px ) {
-    .offcanvas-body {
-        margin-top: 30px;
-    }
+@media screen and (min-width: 700px) {
+  .offcanvas {
+    width: 50% !important;
+  }
 }
 
-
-@media screen and (min-height: 700px ) {
-    .offcanvas-title {
-        font-size: 55px;
-    }
-    .offcanvas-body {
-        font-size: 32px;
-        margin-top: 40px;
-    }
+@media screen and (min-width: 1024px) {
+  .offcanvas-title {
+    font-size: 70px !important;
+  }
+  
+  .offcanvas-body {
+    font-size: 40px !important;
+  }
 }
 
-@media screen and (min-height: 1000px ) {
-    .offcanvas-title {
-        margin-top: 60px;
-        font-size: 55px;
-    }
-    .offcanvas-body {
-        font-size: 32px;
-        margin-top: 80px;
-    }
+@media screen and (min-height: 600px) {
+  .offcanvas-body {
+    margin-top: 30px;
+  }
 }
 
-@media screen and (min-height: 1240px ) {
-    .offcanvas-title {
-        margin-top: 120px;
-        font-size: 55px;
-    }
-    .offcanvas-body {
-        font-size: 32px;
-        margin-top: 80px;
-        
-    }
+@media screen and (min-height: 700px) {
+  .offcanvas-title {
+    font-size: 55px;
+  }
+  .offcanvas-body {
+    font-size: 32px;
+    margin-top: 40px;
+  }
 }
 
+@media screen and (min-height: 1000px) {
+  .offcanvas-title {
+    margin-top: 60px;
+    font-size: 55px;
+  }
+  .offcanvas-body {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+}
 
-/* Navbar end */
+@media screen and (min-height: 1240px) {
+  .offcanvas-title {
+    margin-top: 120px;
+    font-size: 55px;
+  }
+  .offcanvas-body {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+}
 
+/* Navbar Component Styling End */
 
+/* Intro Component Styling Start */
 
+@media screen and (min-width: 390px) {
+  #introParagraph {
+    font-size: 20px !important;
+  }
+}
 
+@media screen and (min-width: 700px) {
+  .Intro {
+    margin-top: 120px !important;
+  }
+
+  .btn-group {
+    display: block !important;
+    margin-top: 15px;
+  }
+
+  #btn-github {
+    font-size: 20px;
+  }
+
+  #btn-linkedin {
+    font-size: 20px;
+  }
+  #introHello {
+    font-size: 35px !important;
+  }
+
+  #introParagraph {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .Intro {
+        margin-top: 120px !important;
+      }
+    
+      .btn-group {
+        display: block !important;
+        margin-top: 20px;
+      }
+    
+      #btn-github {
+        font-size: 20px;
+      }
+    
+      #btn-linkedin {
+        font-size: 20px;
+      }
+      #introHello {
+        font-size: 40px !important;
+      }
+    
+      #introParagraph {
+        font-size: 30px !important;
+      }
+}
+
+/* Intro Component Styling End */
