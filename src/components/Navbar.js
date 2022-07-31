@@ -24,7 +24,7 @@ const Navbar = () => {
             tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
-            style={{backgroundColor: "#0B192E"}}
+            style={{backgroundColor: "#0B192E", width: "80%"}}
           >
             <div
               className="offcanvas-header"
