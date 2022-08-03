@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <div className="Navbar">
-      <nav className="navbar navbar-dark fixed-top">
+    <div className="Navbar" >
+      <nav className="navbar navbar-dark fixed-top" style={{backgroundColor: "#0b192e"}}>
         <div className="container-fluid">
           <a
             className="navbar-brand ms-4"

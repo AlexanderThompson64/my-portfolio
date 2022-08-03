@@ -108,6 +108,10 @@ body {
     margin-top: 120px !important;
   }
 
+  .navbar-brand {
+    font-size: 40px;
+  }
+
   .btn-group {
     display: block !important;
     margin-top: 15px;
@@ -156,3 +160,9 @@ body {
 }
 
 /* Intro Component Styling End */
+
+/* About Component Styling Start */
+
+
+
+/* About Component Styling End */

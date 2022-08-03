@@ -24,11 +24,11 @@ const Intro = () => {
           className="opacity-75 display-1 text-cente mb-4"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
         >
-          I build things for the web!
+          Web and Mobile Developer
         </h1>
         <p
           className="p-1"
-          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "18px" }}
+          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "20px" }}
           id="introParagraph"
         >
           I am a software development student studying my final year at the
