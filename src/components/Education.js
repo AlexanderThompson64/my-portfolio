@@ -1,7 +1,7 @@
 const Education = () => {
   return (
-    <div className="Projects text-white" style={{ fontFamily: "anak" }}>
-      <div className="container d-flex ms-1">
+    <div className="Education text-white mb-5" style={{ fontFamily: "anak" }}>
+      <div className="container d-flex">
         <h1 style={{ width: "170px" }}>
           <span>Education</span>
         </h1>
@@ -21,6 +21,7 @@ const Education = () => {
         <p>
           BSc (Hons) Web and Mobile Development
           <div className="container">September 2019 - July 2023</div>
+          <div className="container">Predicted Grade: First-Class Honours</div>
         </p>
       </div>
     </div>

@@ -1,34 +1,34 @@
 const Intro = () => {
   return (
     <div className="Intro">
-      <div className="container-fluid">
+      <div className="container-fluid mb-4">
         <p
           className=""
           style={{
             color: "#64ffda",
             marginTop: "100px",
             fontFamily: "anak",
-            fontSize: "22px",
+            fontSize: "18px",
           }}
           id="introHello"
         >
           Hello, my name is
         </p>
         <h1
-          className="display-2"
+          className="display-3"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
         >
           Alexander Thompson
         </h1>
         <h1
-          className="opacity-75 display-1 text-cente mb-4"
+          className="opacity-75 display-3 text-cente mb-4"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
         >
           Web and Mobile Developer
         </h1>
         <p
           className="p-1"
-          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "20px" }}
+          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "16px" }}
           id="introParagraph"
         >
           I am a software development student studying my final year at the

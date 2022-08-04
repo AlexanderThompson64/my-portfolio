@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
-import Education from "../components/Education";
 import Skills from "../components/Skills";
+import Education from "../components/Education";
+import Projects from "../components/Projects";
 
 const Home = () => {
     return ( 
@@ -10,8 +11,9 @@ const Home = () => {
             <Navbar/>
             <Intro/>
             <About/>
-            <Education/>
             <Skills/>
+            <Education/>
+            <Projects/>
         </div>
      );
 }

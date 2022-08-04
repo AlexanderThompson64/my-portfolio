@@ -3,8 +3,8 @@ import alexProfilePic from "../img/Alex.jpeg";
 const About = () => {
   return (
     <div className="About" style={{ fontFamily: "anak" }}>
-      <div className="text-white" id="aboutStatement" style={{}}>
-        <div className="container d-flex ms-1">
+      <div className="text-white mb-5" id="aboutStatement" style={{}}>
+        <div className="container d-flex">
           <h1 style={{ width: "180px" }}>
             <span>About me</span>
           </h1>
@@ -46,7 +46,7 @@ const About = () => {
           className="aboutParagraph d-flex justify-content-center mt-3"
           style={{ marginLeft: "15px", marginRight: "15px" }}
         >
-          <p style={{ fontSize: "20px" }}>
+          <p style={{ fontSize: "16px" }}>
             Hello!
             <span style={{ color: "#64ffda" }}> My name is Alexander</span>, but
             you can call me Alex.
@@ -83,7 +83,7 @@ const About = () => {
             Some of technologies I've been working with recently -
           </p>
         </div>
-        <div className="lead" id="skills" style={{ color: "#64ffda" }}>
+        <div className="lead" id="skills" style={{ color: "#64ffda", fontSize: "16px" }}>
           <div className="row justify-content-center">
             <div className="col-3">
               <p>

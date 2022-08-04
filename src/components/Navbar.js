@@ -70,7 +70,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link mb-2" href="Services">
-                    Services
+                    Skills
                   </a>
                 </li>
                 <li className="nav-item">
