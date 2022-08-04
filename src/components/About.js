@@ -4,9 +4,8 @@ const About = () => {
   return (
     <div className="About" style={{ fontFamily: "anak" }}>
       <div className="text-white" id="aboutStatement" style={{}}>
-        <div className="container d-flex">
-          <h1 style={{ width: "230px" }}>
-            <span style={{ color: "whitesmoke" }}>1. </span>
+        <div className="container d-flex ms-1">
+          <h1 style={{ width: "180px" }}>
             <span>About me</span>
           </h1>
 
@@ -31,7 +30,15 @@ const About = () => {
         <div className="container d-flex justify-content-center">
           <div
             className="box rounded"
-            style={{ width: "285px", height: "285px", marginTop: "-310px", marginRight: "-40px", zIndex: "-1", borderStyle: "solid", borderColor: "#64ffda" }}
+            style={{
+              width: "285px",
+              height: "285px",
+              marginTop: "-310px",
+              marginRight: "-40px",
+              zIndex: "-1",
+              borderStyle: "solid",
+              borderColor: "#64ffda",
+            }}
           ></div>
         </div>
 
