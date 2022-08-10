@@ -14,6 +14,7 @@ const Intro = () => {
         >
           Hello, my name is
         </p>
+
         <h1
           className="display-3"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
@@ -26,9 +27,10 @@ const Intro = () => {
         >
           Web and Mobile Developer
         </h1>
+
         <p
           className="p-1"
-          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "16px" }}
+          style={{ color: "whitesmoke", fontFamily: "anak", fontSize: "18px" }}
           id="introParagraph"
         >
           I am a software development student studying my final year at the

@@ -57,7 +57,7 @@ body {
 
 @media screen and (min-height: 600px) {
   .offcanvas-body {
-    margin-top: 30px;
+    margin-top: 40px !important;
   }
 }
 
@@ -67,7 +67,7 @@ body {
   }
   .offcanvas-body {
     font-size: 32px;
-    margin-top: 40px;
+    margin-top: 60px !important;
   }
 }
 
@@ -163,6 +163,42 @@ body {
 
 /* About Component Styling Start */
 
+@media screen and (min-width: 375px) {
+
+  #skillsTitle {
+    width: 580px !important;
+  }
+}
+
+@media screen and (min-width: 400px) {
+
+  #skillsTitle {
+    width: 480px !important;
+  }
+}
+
 
 
 /* About Component Styling End */
+
+/* Education Component Styling Start */
+
+@media screen and (min-width: 375px) {
+
+  #educationTitle {
+    width: 180px !important; 
+  }
+}
+
+@media screen and (min-width: 400px) {
+
+  #educationTitle {
+    width: 170px !important; 
+  }
+}
+
+/* Education Component Styling End */
+
+/* Project Component Styling Start */
+
+/* Project Component Styling End */

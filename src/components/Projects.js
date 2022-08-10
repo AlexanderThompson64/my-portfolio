@@ -2,7 +2,7 @@ const Projects = () => {
     return ( 
         <div className="Projects text-white" style={{fontFamily: "anak"}}>
             <div className="container d-flex">
-          <h1 style={{ width: "140px" }}>
+          <h1 style={{ width: "140px" }} id="projectsTitle">
             <span>Projects</span>
           </h1>
 

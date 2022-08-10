@@ -3,12 +3,11 @@ import alexProfilePic from "../img/Alex.jpeg";
 const About = () => {
   return (
     <div className="About" style={{ fontFamily: "anak" }}>
-      <div className="text-white mb-5" id="aboutStatement" style={{}}>
+      <div className="text-white mb-5" id="aboutStatement" >
         <div className="container d-flex">
           <h1 style={{ width: "180px" }}>
-            <span>About me</span>
+            About me
           </h1>
-
           <hr
             className=""
             style={{
@@ -27,26 +26,11 @@ const About = () => {
             style={{ width: "80%", boxShadow: "5px 5px #0b192e" }}
           />
         </div>
-        <div className="container d-flex justify-content-center">
-          <div
-            className="box rounded"
-            style={{
-              width: "285px",
-              height: "285px",
-              marginTop: "-310px",
-              marginRight: "-40px",
-              zIndex: "-1",
-              borderStyle: "solid",
-              borderColor: "#64ffda",
-            }}
-          ></div>
-        </div>
-
         <div
           className="aboutParagraph d-flex justify-content-center mt-3"
           style={{ marginLeft: "15px", marginRight: "15px" }}
         >
-          <p style={{ fontSize: "16px" }}>
+          <p style={{ fontSize: "18px" }}>
             Hello!
             <span style={{ color: "#64ffda" }}> My name is Alexander</span>, but
             you can call me Alex.

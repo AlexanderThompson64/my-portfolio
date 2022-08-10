@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="Skills text-white" style={{ fontFamily: "anak" }}>
       <div className="container d-flex">
-        <h1 style={{ width: "260px" }}>
+        <h1 style={{ width: "820px" }} id="skillsTitle">
           <span>Skills / Experience</span>
         </h1>
         <hr
@@ -14,12 +14,12 @@ const Skills = () => {
           style={{
             backgroundColour: "white",
             opacity: "0.75",
-            width: "45%",
+            width: "95%",
           }}
         />
       </div>
       <div className="container">
-        <p className="mb-5" style={{fontSize: "16px"}}>
+        <p className="mb-5" style={{fontSize: "18px"}}>
           Throughout my studies over the last 4 years I have completed a range
           of various projects and gained an array skills throughout my study,
           personal projects and work. <br />
@@ -53,7 +53,7 @@ const Skills = () => {
             className="col-6 d-flex justify-content-center align-items-center"
             style={{ width: "50%" }}
           >
-            <p style={{ marginBottom: "-5px", marginRight: "-30px" }}>
+            <p style={{ marginBottom: "-5px", marginRight: "-35px" }}>
               Mobile App Development
             </p>
           </div>
@@ -86,14 +86,14 @@ const Skills = () => {
             />
           </div>
         </div>
-        <p className="mt-4" style={{fontSize: "18px"}}>Transferable Skills -</p>
+        <p className="mt-5" style={{fontSize: "18px"}}>Transferable Skills -</p>
         <div
-          className="container d-flex align-items-center rounded mt-5 mb-5"
-          style={{ borderStyle: "solid", borderColor: "#64ffda", fontSize: "16px" }}
+          className="container d-flex align-items-center rounded mt-2 mb-5"
+          style={{ fontSize: "18px" }}
         >
           <ul
             style={{
-              marginTop: "15px",
+              marginTop: "15px"
             }}
           >
             <li>Critical Thinking</li>

@@ -2,7 +2,7 @@ const Education = () => {
   return (
     <div className="Education text-white mb-5" style={{ fontFamily: "anak" }}>
       <div className="container d-flex">
-        <h1 style={{ width: "170px" }}>
+        <h1 style={{ width: "190px" }} id="educationTitle">
           <span>Education</span>
         </h1>
         <hr
