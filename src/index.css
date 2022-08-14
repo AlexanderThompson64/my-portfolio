@@ -1,6 +1,7 @@
 /* Stops app from sliding left or right from the viewport. */
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -56,7 +57,7 @@ body {
   .offcanvas-title {
     font-size: 70px !important;
   }
-  
+
   .offcanvas-body {
     font-size: 40px !important;
   }
@@ -78,7 +79,7 @@ body {
   }
 }
 
-@media screen and (min-height: 700px) and (min-width: 400px)  {
+@media screen and (min-height: 700px) and (min-width: 400px) {
   .offcanvas-title {
     font-size: 55px;
   }
@@ -136,80 +137,140 @@ body {
     font-size: 20px;
   }
   #introHello {
-    font-size: 35px !important;
+    font-size: 26px !important;
   }
 
   #introParagraph {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
 }
 
 @media screen and (min-width: 1024px) {
-    .Intro {
-        margin-top: 120px !important;
-      }
-    
-      .btn-group {
-        display: block !important;
-        margin-top: 20px;
-      }
-    
-      #btn-github {
-        font-size: 20px;
-      }
-    
-      #btn-linkedin {
-        font-size: 20px;
-      }
-      #introHello {
-        font-size: 40px !important;
-      }
-    
-      #introParagraph {
-        font-size: 30px !important;
-      }
+  .Intro {
+    margin-top: 120px !important;
+  }
+
+  .btn-group {
+    display: block !important;
+    margin-top: 20px;
+  }
+
+  #btn-github {
+    font-size: 20px;
+  }
+
+  #btn-linkedin {
+    font-size: 20px;
+  }
+  #introHello {
+    font-size: 40px !important;
+  }
+
+  #introParagraph {
+    font-size: 30px !important;
+  }
 }
 
 /* Intro Component Styling End */
 
 /* About Component Styling Start */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 700px) {
+  #aboutHeader {
+    font-size: 45px !important;
+    width: 100% !important;
+    opacity: 0.75 !important;
+  }
 
-  #skillsTitle {
-    width: 580px !important;
+  #aboutP {
+    font-size: 22px !important;
+  }
+
+  #techStack {
+    font-size: 22px !important;
   }
 }
-
-@media screen and (min-width: 400px) {
-
-  #skillsTitle {
-    width: 480px !important;
-  }
-}
-
-
 
 /* About Component Styling End */
 
-/* Education Component Styling Start */
+/* Skills Component Styling Start */
 
-@media screen and (min-width: 375px) {
-
-  #educationTitle {
-    width: 180px !important; 
+@media screen and (min-width: 700px) {
+  #skillsTitle {
+    font-size: 45px !important;
+    opacity: 0.75;
   }
+
+  #skillsP {
+    font-size: 22px !important;
+  }
+
+  #keySkills {
+    font-size: 22px;
+  }
+
+  #skillsWeb {
+    font-size: 22px !important;
+  }
+
+  #skillsMobile {
+    font-size: 22px !important;
+  }
+
+  #skillsDesign {
+    font-size: 22px !important;
+  }
+
+  #transSkillsTitle {
+    font-size: 24px !important;
+  }
+
 }
 
-@media screen and (min-width: 400px) {
+/* Skills Component Styling End */
 
+/* Education Component Styling Start */
+
+@media screen and (min-width: 700px) {
+  
   #educationTitle {
-    width: 170px !important; 
+    font-size: 45px !important;
+    opacity: 0.75;
+  }
+
+  #uniName {
+    font-size: 32px !important;
+  }
+
+  #uniP {
+    font-size: 22px !important;
   }
 }
 
 /* Education Component Styling End */
 
-/* Project Component Styling Start */
+/* Projects Component Styling Start */
 
-/* Project Component Styling End */
+@media screen and (min-width: 700px) {
+  
+  #projectsTitle {
+    font-size: 45px !important;
+    opacity: 0.75;
+  }
+
+  .projectTitles {
+    font-size: 24px !important;
+  }
+
+  .projectsP {
+    font-size: 22px;
+  }
+
+  .projectCard {
+    height: 350px !important;
+  }
+
+
+}
+
+/* Projects Component Styling End */

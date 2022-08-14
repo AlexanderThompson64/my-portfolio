@@ -1,12 +1,12 @@
 const Education = () => {
   return (
     <div className="Education text-white mb-5" style={{ fontFamily: "anak" }}>
-      <div className="container d-flex">
-        <h1 style={{ width: "190px" }} id="educationTitle">
-          <span>Education</span>
+      <div className="container-fluid d-flex">
+        <h1 className="mt-sm-5" style={{ width: "170px" }} id="educationTitle">
+          Education
         </h1>
         <hr
-          className=""
+          className="d-sm-none"
           style={{
             backgroundColour: "white",
             opacity: "0.75",
@@ -14,14 +14,17 @@ const Education = () => {
           }}
         />
       </div>
-      <h1 className="display-6 mt-2" style={{ fontSize: "22px", marginLeft: "30px", marginRight: "30px"}}>
-        University of Sunderland
-      </h1>
-      <div className="container" style={{fontSize: "18px", marginLeft: "30px", marginRight: "30px"}}>
-        <p>
+      
+      <div className="container d-flex justify-content-center mt-5"x>
+        <p id="uniP">
+          <span id="uniName" style={{fontSize: "22px"}}>University of Sunderland</span>
+          <br />
           BSc (Hons) Web and Mobile Development
-          <div className="container">September 2019 - July 2023</div>
-          <div className="container">Predicted Grade: First-Class Honours</div>
+          <br />
+          September 2019 - July 2023
+          <br />
+          <br />
+          Predicted Grade: <span style={{color: "#64ffda"}}>First-Class Honours</span>
         </p>
       </div>
     </div>

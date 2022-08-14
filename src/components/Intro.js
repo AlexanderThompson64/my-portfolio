@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
     <div className="Intro">
-      <div className="container-fluid mb-4">
+      <div className="container-fluid mb-5">
         <p
           className=""
           style={{
