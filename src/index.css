@@ -57,7 +57,7 @@ body {
 
 @media screen and (min-height: 600px) {
   .offcanvas-body {
-    margin-top: 40px !important;
+    margin-top: 60px !important;
   }
 }
 
@@ -67,6 +67,16 @@ body {
   }
   .offcanvas-body {
     font-size: 32px;
+    margin-top: 80px !important;
+  }
+}
+
+@media screen and (min-height: 700px) and (min-width: 400px)  {
+  .offcanvas-title {
+    font-size: 55px;
+  }
+  .offcanvas-body {
+    font-size: 34px;
     margin-top: 60px !important;
   }
 }
@@ -96,12 +106,6 @@ body {
 /* Navbar Component Styling End */
 
 /* Intro Component Styling Start */
-
-@media screen and (min-width: 390px) {
-  #introParagraph {
-    font-size: 20px !important;
-  }
-}
 
 @media screen and (min-width: 700px) {
   .Intro {
