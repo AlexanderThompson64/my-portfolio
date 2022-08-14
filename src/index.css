@@ -1,3 +1,10 @@
+/* Stops app from sliding left or right from the viewport. */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: anak;
   src: url(/src/assets/fonts/Anek_Malayalam/static/AnekMalayalam/AnekMalayalam-Regular.ttf);
