@@ -3,8 +3,8 @@ const Intro = () => {
     <div className="Intro">
       <div className="container-fluid mb-5">
         <p
-          className=""
           style={{
+            marginLeft: "10px",
             color: "#64ffda",
             marginTop: "100px",
             fontFamily: "anak",
@@ -18,12 +18,14 @@ const Intro = () => {
         <h1
           className="display-3"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
+          id="introName"
         >
           Alexander Thompson
         </h1>
         <h1
           className="opacity-75 display-3 text-cente mb-4"
           style={{ color: "whitesmoke", fontFamily: "anak" }}
+          id="introTitle"
         >
           Web and Mobile Developer
         </h1>
@@ -34,11 +36,11 @@ const Intro = () => {
           id="introParagraph"
         >
           I am a software development student studying my final year at the
-          University of Sunderland. I am currently focusing on building
+          University of Sunderland, currently focusing on building
           applications using Javascipt and React.
         </p>
         <div
-          className="btn-group p-1"
+          className="introButtons btn-group p-1"
           role="group"
           style={{ display: "none", fontFamily: "anak" }}
         >

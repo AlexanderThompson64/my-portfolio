@@ -15,92 +15,95 @@ const Projects = () => {
           }}
         />
       </div>
-      <div
-        className="projectCard container d-flex flex-column justify-content-center rounded"
-        style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
-      >
-        <h1 className="projectTitles" style={{ fontSize: "22px" }}>
-          Charity Mobile Application
-        </h1>
+      <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
+        <div
+          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+        >
 
-        <p className="projectsP">
-          Cross-platform mobile application built for a charity as part of a
-          university project.
-        </p>
+          <h1 className="projectTitles" style={{ fontSize: "22px" }}>
+            Charity Mobile Application
+          </h1>
 
-        <p className="projectsP">
-          Technologies - <br />
-          <span style={{ color: "#64ffda" }}>
-            C# / .NET / Xammarin Forms / Visual Studio
-          </span>
-        </p>
-        <div className="container d-flex justify-content-center">
-          <a
-            href=""
-            className="projectsBtn btn border"
-            style={{ color: "white", width: "50%" }}
-          >
-            Learn More
-          </a>
+          <p className="projectsP">
+            Cross-platform mobile application built for a charity as part of a
+            university project.
+          </p>
+
+          <p className="projectsP">
+            Technologies - <br />
+            <span style={{ color: "#64ffda" }}>
+              C# / .NET / Xammarin Forms / Visual Studio
+            </span>
+          </p>
+          <div className="container d-flex justify-content-center">
+            <a
+              href=""
+              className="projectsBtn btn btn-primary"
+              style={{ color: "white", width: "50%" }}
+            >
+              Learn More
+            </a>
+          </div>
         </div>
-      </div>
-      <div
-        className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-        style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
-      >
-        <h1 className="projectTitles" style={{ fontSize: "22px" }}>
-          Booking Manager Application
-        </h1>
+        <div
+          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+        >
+          <h1 className="projectTitles" style={{ fontSize: "22px" }}>
+            Booking Manager Application
+          </h1>
 
-        <p className="projectsP">
-          .NET Core C# Application used to manage bookings and their various
-          types.
-        </p>
+          <p className="projectsP">
+            .NET Core C# Application used to manage bookings and their various
+            types.
+          </p>
 
-        <p className="projectsP">
-          Technologies - <br />
-          <span style={{ color: "#64ffda" }}>
-            C# / .NET / Polymorphism / Visual Studio / Rider
-          </span>
-        </p>
-        <div className="container d-flex justify-content-center">
-          <a
-            href=""
-            className="projectsBtn btn border"
-            style={{ color: "white", width: "50%" }}
-          >
-            Learn More
-          </a>
+          <p className="projectsP">
+            Technologies - <br />
+            <span style={{ color: "#64ffda" }}>
+              C# / .NET / Polymorphism / Visual Studio / Rider
+            </span>
+          </p>
+          <div className="container d-flex justify-content-center">
+            <a
+              href=""
+              className="projectsBtn btn btn-primary"
+              style={{ color: "white", width: "50%" }}
+            >
+              Learn More
+            </a>
+          </div>
         </div>
-      </div>
-      <div
-        className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-        style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
-      >
-        <h1 className="projectTitles" style={{ fontSize: "22px" }}>
-          Maintinance ticket system
-        </h1>
+        <div
+          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+        >
+          <h1 className="projectTitles" style={{ fontSize: "22px" }}>
+            Maintinance ticket system
+          </h1>
 
-        <p className="projectsP">
-          React web app, built to manage and maintain tickets raised for local
-          park maintenance.
-        </p>
+          <p className="projectsP">
+            React web app, built to manage and maintain tickets raised for local
+            park maintenance.
+          </p>
 
-        <p className="projectsP">
-          Technologies - <br />
-          <span style={{ color: "#64ffda" }}>
-            React / Firebase / Visual Studio
-          </span>
-        </p>
+          <p className="projectsP">
+            Technologies - <br />
+            <span style={{ color: "#64ffda" }}>
+              React / Firebase / Visual Studio
+            </span>
+          </p>
 
-        <div className="container d-flex justify-content-center">
-          <a
-            href=""
-            className="projectsBtn btn border"
-            style={{ color: "white", width: "50%" }}
-          >
-            Learn More
-          </a>
+          <div className="container d-flex justify-content-center">
+            <a
+              href=""
+              className="projectsBtn btn btn-primary"
+              style={{ width: "50%" }}
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </div>

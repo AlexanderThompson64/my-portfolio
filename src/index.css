@@ -63,6 +63,17 @@ body {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .offcanvas {
+    width: 30% !important;
+  }
+
+  .offcanvas-body {
+    font-size: 28px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
 @media screen and (min-height: 600px) {
   .offcanvas-body {
     margin-top: 60px !important;
@@ -145,7 +156,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
   .Intro {
     margin-top: 120px !important;
   }
@@ -163,12 +174,94 @@ body {
     font-size: 20px;
   }
   #introHello {
-    font-size: 40px !important;
+    font-size: 20px !important;
+  }
+
+  #introName {
+    font-size: 50px;
+  }
+
+  #introTitle {
+    font-size: 50px;
   }
 
   #introParagraph {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+
+  #btn-linkedin {
+    font-size: 22px !important;
+  }
+
+  #btn-instagram {
+    font-size: 22px !important;
+  }
+  #btn-github {
+    font-size: 22px !important;
+  }
+
+  #btn-linkedin {
+    font-size: 22px !important;
+  }
+  #introHello {
     font-size: 30px !important;
   }
+
+  #introName {
+    font-size: 60px;
+  }
+
+  #introTitle {
+    font-size: 60px;
+  }
+
+  #introParagraph {
+    font-size: 26px !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .Intro {
+    padding-left: 50px;
+  }
+
+  #introHello {
+    font-size: 20px !important;
+  }
+
+  #introName {
+    margin-bottom: -10px !important;
+  }
+
+  #introTitle {
+    margin-bottom: 0 !important;
+  }
+
+  #introParagraph {
+    font-size: 18px !important;
+    margin-right: 700px !important;
+  }
+
+  #btn-linkedin {
+    font-size: 18px !important;
+  }
+
+  #btn-instagram {
+    font-size: 18px !important;
+  }
+  #btn-github {
+    font-size: 18px !important;
+  }
+
+  #btn-linkedin {
+    font-size: 18px !important;
+  }
+  
+
 }
 
 /* Intro Component Styling End */
@@ -176,10 +269,16 @@ body {
 /* About Component Styling Start */
 
 @media screen and (min-width: 700px) {
+
+  #aboutHeaderDesktop {
+    display: block !important;
+  }
+
   #aboutHeader {
     font-size: 45px !important;
     width: 100% !important;
     opacity: 0.75 !important;
+    display: none;
   }
 
   #aboutP {
@@ -191,14 +290,78 @@ body {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  
+  #aboutHeader {
+    font-size: 50px !important;
+  }
+
+  #aboutP {
+    font-size: 20px !important;
+    
+  }
+
+  #alexImg {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+  #alexImg {
+    width: 70% !important;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #aboutHeader {
+    font-size: 50px !important;
+  }
+  
+  #aboutP {
+    font-size: 26px !important;
+  }
+
+  #techStack {
+    font-size: 26px !important;
+  }
+}
+
+@media screen and  (min-width: 1500px) {
+  #aboutHeader {
+    font-size: 40px !important;
+    margin-left: 10% !important;
+  }
+
+  #aboutP {
+    font-size: 18px !important;
+  }
+
+  #techStack {
+    font-size: 18px !important;
+  }
+
+  #alexImg {
+    width: 70% !important;
+  }
+}
+
 /* About Component Styling End */
 
 /* Skills Component Styling Start */
 
 @media screen and (min-width: 700px) {
+  
+  #skillsHeaderDesktop {
+    display: block !important;
+    
+  }
+  
   #skillsTitle {
     font-size: 45px !important;
     opacity: 0.75;
+    display: none;
   }
 
   #skillsP {
@@ -206,7 +369,7 @@ body {
   }
 
   #keySkills {
-    font-size: 22px;
+    font-size: 22px !important;
   }
 
   #skillsWeb {
@@ -227,15 +390,153 @@ body {
 
 }
 
+@media screen and (min-width: 1000px) {
+  #skillsP {
+    font-size: 20px !important;
+  }
+
+  #keySkills {
+    font-size: 22px !important;
+  }
+
+  #transSkillsTitle {
+    font-size: 20px !important;
+  }
+
+  #skillsWeb {
+    font-size: 20px !important;
+  }
+
+  #skillsMobile {
+    font-size: 20px !important;
+  }
+
+  #skillsDesign {
+    font-size: 20px !important;
+  }
+
+  #transSkillsTitle {
+    font-size: 22px !important;
+  }
+
+  #transSkillsList {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #skillsTitle {
+    font-size: 50px !important;
+  }
+
+  #skillsP {
+    font-size: 26px !important;
+  }
+
+  #keySkills {
+    font-size: 26px !important;
+  }
+
+  #skillsWeb {
+    font-size: 26px !important;
+  }
+
+  #skillsMobile {
+    font-size: 26px !important;
+  }
+
+  #skillsDesign {
+    font-size: 26px !important;
+  }
+
+  #transSkillsTitle {
+    font-size: 26px !important;
+  }
+
+  #transSkillsList {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  
+  #skillsHeaderDesktop {
+    margin-top: 100px;
+  }
+
+  #skillsTitle {
+    margin-left: 10% !important;
+    font-size: 40px !important;
+  }
+
+  #skillsP {
+    margin-top: 60px !important;
+    font-size: 18px !important;
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+  }
+
+  #keySkills {
+    font-size: 28px !important;
+  }
+
+  #skillsWeb {
+    font-size: 20px !important;
+    margin-top: 100px !important;
+  }
+
+  #skillsMobile {
+    font-size: 20px !important;
+  }
+
+  #skillsDesign {
+    font-size: 20px !important;
+  }
+ 
+  #webDevImg {
+    width: 50% !important;
+  }
+
+  #mobileAppDevImg {
+    width: 50% !important;
+    margin-right: 4% !important;
+  }
+
+  #mobileDesignImg {
+    width: 50% !important;
+    margin-right: 6% !important;
+  }
+
+  #transSkillsTitle {
+    font-size: 20px !important;
+    margin-top: 100px !important;
+    margin-left: 5% !important;
+    
+  }
+
+  #transSkillsList {
+    font-size: 18px !important;
+    margin-left: 5% !important;
+    margin-bottom: 150px !important; 
+  }
+
+  
+}
+
 /* Skills Component Styling End */
 
 /* Education Component Styling Start */
 
 @media screen and (min-width: 700px) {
   
+  #educationHeaderDesktop {
+    display: block !important;
+  }
+
   #educationTitle {
     font-size: 45px !important;
     opacity: 0.75;
+    display: none;
   }
 
   #uniName {
@@ -244,6 +545,46 @@ body {
 
   #uniP {
     font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #uniName {
+    font-size: 28px !important;
+  }
+
+  #uniP {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #uniP {
+    font-size: 26px !important;
+  }
+
+  #uniName {
+    font-size: 36px !important;
+  }
+
+  #educationTitle {
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  
+
+  #educationTitle {
+    font-size: 45px !important;
+  }
+
+  #uniName {
+    font-size: 26px !important;
+  }
+
+  #uniP {
+    font-size: 18px !important;
   }
 }
 
@@ -269,8 +610,76 @@ body {
   .projectCard {
     height: 350px !important;
   }
+}
 
+@media screen and (min-width: 1000px) {
 
+  .projectCard {
+    width: 50% !important;
+  }
+  
+}
+
+@media screen and (min-width: 1300px) {
+  .projectCard {
+    width: 40% !important;
+    height: 400px !important;
+  }
+
+  .projectsP {
+    font-size: 26px !important;
+  }
+
+  .projectTitles {
+    font-size: 30px !important;
+  }
+
+  .projectsBtn {
+    font-size: 24px !important;
+  }
+
+  #projectsTitle {
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  #projectsTitle {
+    font-size: 45px !important;
+  }
+
+  .projectCard {
+    width: 30% !important;
+    height: 300px !important;
+    margin-top: 0 !important;
+    margin-bottom: 50px !important;
+  }
+
+  .projectTitles {
+    font-size: 22px !important;
+  }
+
+  .projectsP {
+    font-size: 18px !important;
+  }
+
+  .projectsBtn {
+    font-size: 18px !important;
+    width: 35% !important;
+    margin-top: 10px !important;
+  }
+  
 }
 
 /* Projects Component Styling End */
+
+/* Footer Component Styling Start */
+
+@media screen and (min-width: 1300px) {
+  .footerIcons {
+    font-size: 40px !important;
+  }
+}
+
+/* Footer Component Styling End */

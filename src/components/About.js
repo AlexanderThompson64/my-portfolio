@@ -15,23 +15,24 @@ const About = () => {
             }}
           />
         </div>
-        <div className="row mt-2">
-          <div className="col-sm-6 order-sm-last mt-sm-5">
-            <div className="container d-flex justify-content-center mt-3 mb-3 mt-sm-5">
+        <div className="row mt-2 mt-xxl-5 justify-content-center">
+          <div className="col-sm-6 col-xxl-4 order-sm-last mt-sm-5">
+            <div className="container d-flex justify-content-center align-items-center mt-3 mb-3 mt-sm-5">
               <img
                 className="rounded"
                 src={alexProfilePic}
                 alt="Image of Alexander"
-                id="alex-img"
+                id="alexImg"
                 style={{ width: "95%", boxShadow: "5px 5px #0b192e" }}
               />
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-5">
             <div
-              className="d-flex justify-content-center mt-3"
+              className="d-flex flex-column justify-content-center mt-3"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
+              <h1 className="d-none" id="aboutHeaderDesktop" style={{opacity: "0.75"}}>About me</h1>
               <p style={{ fontSize: "18px" }} id="aboutP">
                 Hello!
                 <span style={{ color: "#64ffda" }}> My name is Alexander</span>,
@@ -71,13 +72,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div
-          className="lead"
-          id="techStack"
-          style={{ color: "#64ffda", fontSize: "16px" }}
-        >
-          <div className="row mt-sm-5 justify-content-center align-items-center">
-            <div className="col-3 col-sm-2">
+        
+        
+          <div className="row rounded mt-sm-5 justify-content-center align-items-center" id="techStack"
+          style={{ color: "#64ffda", fontSize: "16px" }}>
+            <div className="col-3 col-sm-2 me-xxl-5 d-flex justify-content-center">
               <p>
                 HTML
                 <br />
@@ -86,7 +85,7 @@ const About = () => {
                 JS
               </p>
             </div>
-            <div className="col-3 col-sm-2">
+            <div className="col-3 col-sm-2 ms-xxl-5 me-xxl-5 d-flex justify-content-center">
               <p>
                 C#
                 <br />
@@ -95,7 +94,7 @@ const About = () => {
                 Bootstrap
               </p>
             </div>
-            <div className="col-3 col-sm-2">
+            <div className="col-3 col-sm-2 ms-xxl-5 d-flex justify-content-center">
               <p>
                 Figma
                 <br />
@@ -105,7 +104,7 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
   );

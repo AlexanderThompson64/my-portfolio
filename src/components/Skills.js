@@ -18,16 +18,16 @@ const Skills = () => {
           }}
         />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid text-center">
         <p className="mb-5" style={{ fontSize: "18px" }} id="skillsP">
+        <h1 className="d-none" id="skillsHeaderDesktop" style={{opacity: "0.75"}}>Skills</h1>
           Throughout my studies over the last 4 years I have completed a range
-          of various projects and gained an array skills throughout my study,
+          of various projects and gained an array of skills throughout my study,
           personal projects and work. <br />
           <br />I also gained valuable transferable skills through previous
           employment over my years in fast paced driven environments.
           <br />
           <br />
-          <span id="keySkills">Key Skills - </span>
         </p>
       </div>
       <div
@@ -43,12 +43,12 @@ const Skills = () => {
               Web Development
             </p>
           </div>
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col-6 col-lg-5 d-flex justify-content-center">
             <img
               className="rounded"
               src={WebDevImg}
-              alt="Image of Alexander"
-              id="alex-img"
+              alt="Image of Web Technologies"
+              id="webDevImg"
               style={{ width: "70%" }}
             />
           </div>
@@ -62,12 +62,12 @@ const Skills = () => {
               Mobile App Development
             </p>
           </div>
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col-6 col-lg-5 d-flex justify-content-center">
             <img
-              className="rounded"
+              className="rounded me-1"
               src={mobileDevImg}
-              alt="Image of Alexander"
-              id="alex-img"
+              alt="Image of Mobile developement tech"
+              id="mobileAppDevImg"
               style={{ width: "75%" }}
             />
           </div>
@@ -81,13 +81,13 @@ const Skills = () => {
               Web / Mobile Design
             </p>
           </div>
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col-6 col-lg-5 d-flex justify-content-center">
             <img
-              className="rounded"
+              className="rounded me-lg-3"
               src={designImg}
-              alt="Image of Alexander"
-              id="alex-img"
-              style={{ width: "80%", marginLeft: "-25px" }}
+              alt="Image of design tech"
+              id="mobileDesignImg"
+              style={{ width: "70%", marginLeft: "-25px" }}
             />
           </div>
         </div>
@@ -122,7 +122,7 @@ const Skills = () => {
                 interface
               </li>
               <li>Highly Motivated</li>
-              <li>8 Years working in Client focussed environments</li>
+              <li>8 Years working in Client focused environments</li>
             </ul>
           </div>
         </div>
