@@ -1,7 +1,12 @@
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
-    <div className="Navbar" >
-      <nav className="navbar navbar-dark fixed-top" style={{backgroundColor: "#0b192e"}}>
+    <div className="Navbar">
+      <nav
+        className="navbar navbar-dark fixed-top"
+        style={{ backgroundColor: "#0b192e" }}
+      >
         <div className="container-fluid">
           <a
             className="navbar-brand ms-4"
@@ -41,13 +46,15 @@ const Navbar = () => {
                 </div>
                 <div className="row text-center">
                   <div className="col">
-                    <h5
-                      className="offcanvas-title"
-                      style={{ color: "whitesmoke", fontFamily: "Dancing" }}
-                      id="offcanvasNavbarLabel"
-                    >
-                      A.Thompson
-                    </h5>
+                    <a href="/" style={{textDecoration: "none"}}>
+                      <h5
+                        className="offcanvas-title"
+                        style={{ color: "whitesmoke", fontFamily: "Dancing" }}
+                        id="offcanvasNavbarLabel"
+                      >
+                        A.Thompson
+                      </h5>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -64,19 +71,37 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link mb-2" href="About">
+                  <Link
+                    to="btn-github"
+                    spy={true}
+                    smooth={true}
+                    className="nav-link mb-2"
+                    href="About"
+                  >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link mb-2" href="Services">
+                  <Link
+                    to="techStack"
+                    spy={true}
+                    smooth={true}
+                    className="nav-link mb-2"
+                    href="Services"
+                  >
                     Skills
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link mb-2" href="Projects">
+                  <Link
+                    to="predictedGrade"
+                    spy={true}
+                    smooth={true}
+                    className="nav-link mb-2"
+                    href="Projects"
+                  >
                     Projects
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <br />

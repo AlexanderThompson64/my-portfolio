@@ -25,7 +25,7 @@ const Education = () => {
           September 2019 - July 2023
           <br />
           <br />
-          Predicted Grade: <span style={{color: "#64ffda"}}>First-Class Honours</span>
+          Predicted Grade: <span style={{color: "#64ffda"}} id="predictedGrade">First-Class Honours</span>
         </p>
       </div>
     </div>
