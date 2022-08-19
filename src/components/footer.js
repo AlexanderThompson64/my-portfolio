@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="Footer">
       <div className="container d-flex justify-content-center">
-        <div className="footerIcons mt-4 mb-4" id="offcanvasIcons" style={{fontSize: "30px"}}>
+        <div className="footerIcons" id="offcanvasIcons" style={{fontSize: "30px"}}>
           <a
             href="https://github.com/AlexanderThompson64"
             className="bi bi-github me-4"
@@ -29,6 +29,7 @@ const Footer = () => {
           ></a>
         </div>
       </div>
+      <br />
     </div>
   );
 };

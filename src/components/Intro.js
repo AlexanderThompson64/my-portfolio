@@ -1,12 +1,10 @@
 const Intro = () => {
   return (
     <div className="Intro">
-      <div className="container-fluid mb-5">
+      <div className="container-fluid">
         <p
           style={{
-            marginLeft: "10px",
             color: "#64ffda",
-            marginTop: "100px",
             fontFamily: "anak",
             fontSize: "18px",
           }}
@@ -36,8 +34,9 @@ const Intro = () => {
           id="introParagraph"
         >
           I am a software development student studying my final year at the
-          University of Sunderland, currently focusing on building
-          applications using Javascipt and React.
+          University of Sunderland, currently focusing on building applications
+          using Javascipt and React.
+          <span id="aboutScrollTarget"></span>
         </p>
         <div
           className="introButtons btn-group p-1"

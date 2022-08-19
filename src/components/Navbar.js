@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>
                 <div className="row text-center">
                   <div className="col">
-                    <a href="/" style={{textDecoration: "none"}}>
+                    <a href="/" style={{ textDecoration: "none" }}>
                       <h5
                         className="offcanvas-title"
                         style={{ color: "whitesmoke", fontFamily: "Dancing" }}
@@ -66,15 +66,25 @@ const Navbar = () => {
             >
               <ul className="navbar-nav justify-content-end text-center flex-grow-1">
                 <li className="nav-item">
-                  <a className="nav-link mb-2" aria-current="false" href="/">
+                  <Link
+                    className="nav-link mb-2"
+                    aria-current="false"
+                    to="Intro"
+                    spy={true}
+                    smooth={false}
+                    href="/"
+                    
+                  >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="btn-github"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                    to="spacer1"
                     spy={true}
-                    smooth={true}
+                    smooth={false}
                     className="nav-link mb-2"
                     href="About"
                   >
@@ -83,20 +93,24 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="techStack"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                    to="spacer2"
                     spy={true}
-                    smooth={true}
+                    smooth={false}
                     className="nav-link mb-2"
-                    href="Services"
+                    href="Skills"
                   >
                     Skills
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="predictedGrade"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                    to="Projects"
                     spy={true}
-                    smooth={true}
+                    smooth={false}
                     className="nav-link mb-2"
                     href="Projects"
                   >

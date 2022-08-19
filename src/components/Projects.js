@@ -15,12 +15,22 @@ const Projects = () => {
           }}
         />
       </div>
+      <br />
+      <div className="container d-flex justify-content-center">
+        <h1
+          className="d-none"
+          id="skillsHeaderDesktop"
+          style={{ opacity: "0.75" }}
+        >
+          Projects
+        </h1>
+      </div>
+      <br />
       <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
         <div
-          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
+          className="projectCard container d-flex flex-column justify-content-center rounded"
           style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
         >
-
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Charity Mobile Application
           </h1>

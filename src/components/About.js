@@ -3,9 +3,11 @@ import alexProfilePic from "../img/Alex.jpeg";
 const About = () => {
   return (
     <div className="About" style={{ fontFamily: "anak" }}>
-      <div className="text-white mb-5" id="aboutStatement">
+      <div className="text-white mb-5r" id="aboutStatement">
         <div className="container-fluid d-flex">
-          <h1 className="mt-sm-5" id="aboutHeader" style={{ width: "180px" }}>About me</h1>
+          <h1 className="mt-sm-5" id="aboutHeader" style={{ width: "180px" }}>
+            About me
+          </h1>
           <hr
             className="d-sm-none"
             style={{
@@ -15,24 +17,27 @@ const About = () => {
             }}
           />
         </div>
-        <div className="row mt-2 mt-xxl-5 justify-content-center">
-          <div className="col-sm-6 col-xxl-4 order-sm-last mt-sm-5">
-            <div className="container d-flex justify-content-center align-items-center mt-3 mb-3 mt-sm-5">
-              <img
-                className="rounded"
-                src={alexProfilePic}
-                alt="Image of Alexander"
-                id="alexImg"
-                style={{ width: "95%", boxShadow: "5px 5px #0b192e" }}
-              />
-            </div>
+        <div className="row mt-2 mt-xxl-5 justify-content-center align-items-center">
+          <div className="col-sm-6 d-flex justify-content-center col-xxl-4 order-sm-last mt-sm-5">
+            <img
+              className="rounded img-fluid w-75"
+              src={alexProfilePic}
+              alt="Image of Alexander"
+              id="alexImg"
+            />
           </div>
           <div className="col-sm-5">
             <div
               className="d-flex flex-column justify-content-center mt-3"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
-              <h1 className="d-none" id="aboutHeaderDesktop" style={{opacity: "0.75"}}>About me</h1>
+              <h1
+                className="d-none"
+                id="aboutHeaderDesktop"
+                style={{ opacity: "0.75" }}
+              >
+                About me
+              </h1>
               <p style={{ fontSize: "18px" }} id="aboutP">
                 Hello!
                 <span style={{ color: "#64ffda" }}> My name is Alexander</span>,
@@ -72,39 +77,40 @@ const About = () => {
             </div>
           </div>
         </div>
-        
-        
-          <div className="row rounded mt-sm-5 justify-content-center align-items-center" id="techStack"
-          style={{ color: "#64ffda", fontSize: "16px" }}>
-            <div className="col-3 col-sm-2 me-xxl-5 d-flex justify-content-center">
-              <p>
-                HTML
-                <br />
-                CSS
-                <br />
-                JS
-              </p>
-            </div>
-            <div className="col-3 col-sm-2 ms-xxl-5 me-xxl-5 d-flex justify-content-center">
-              <p>
-                C#
-                <br />
-                React
-                <br />
-                Bootstrap
-              </p>
-            </div>
-            <div className="col-3 col-sm-2 ms-xxl-5 d-flex justify-content-center">
-              <p>
-                Figma
-                <br />
-                PHP
-                <br />
-                Wordpress
-              </p>
-            </div>
+
+        <div
+          className="row rounded mt-sm-5 justify-content-center align-items-center"
+          id="techStack"
+          style={{ color: "#64ffda", fontSize: "16px" }}
+        >
+          <div className="col-3 col-sm-2 me-xxl-5 d-flex justify-content-center">
+            <p>
+              HTML
+              <br />
+              CSS
+              <br />
+              JS
+            </p>
           </div>
-        
+          <div className="col-3 col-sm-2 ms-xxl-5 me-xxl-5 d-flex justify-content-center">
+            <p>
+              C#
+              <br />
+              React
+              <br />
+              Bootstrap
+            </p>
+          </div>
+          <div className="col-3 col-sm-2 ms-xxl-5 d-flex justify-content-center">
+            <p>
+              Figma
+              <br />
+              PHP
+              <br />
+              Wordpress
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
