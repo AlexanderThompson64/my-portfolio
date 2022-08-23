@@ -10,10 +10,15 @@ const Home = () => {
   return (
     <div className="Home">
       <Navbar />
+      <div className="spacer" id="spacerHome"><Spacer/></div>
       <Intro />
+      <div className="spacer " id="spacer1"><Spacer/><Spacer/></div>
       <About />
+      <div className="spacer " id="spacer2"><Spacer/><Spacer/></div>
       <Skills />
+      <div className="spacer " id="spacer3"><Spacer/><Spacer/></div>
       <Projects />
+      <div className="spacer " id="spacer4"><Spacer/><Spacer/></div>
       <Footer />
     </div>
   );

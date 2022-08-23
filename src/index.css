@@ -27,8 +27,29 @@ body {
   background-color: #0b192e;
 }
 
+@media screen and (min-width: 700px) {
+  .spacer {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  .Home {
+    padding-left: 400px !important;
+    padding-right: 400px !important;
+  }
+}
+
+@media screen and (min-width: 3200px) {
+  .Home {
+    padding-left: 500px !important;
+    padding-right: 500px !important; 
+  }
+}
+
+/* Component Styling */
 /* Mobile first design*/
-/* Styling for navigation links for entire app */
+/* Styling for navigation links */
 .nav-link {
   color: whitesmoke;
 }
@@ -74,6 +95,28 @@ body {
     margin-bottom: 20px !important;
   }
 }
+
+@media screen and (min-width: 1900px) {
+  .offcanvas {
+    width: 30% !important;
+  }
+
+  .offcanvas-body {
+    font-size: 35px !important;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .offcanvas {
+    width: 20% !important;
+  }
+
+  .offcanvas-body {
+    font-size: 35px !important;
+  }
+}
+  
+
 
 @media screen and (min-height: 600px) {
   .offcanvas-body {
@@ -128,8 +171,6 @@ body {
 /* Intro Component Styling Start */
 
 @media screen and (min-width: 700px) {
-  .Intro {
-  }
 
   .navbar-brand {
     font-size: 40px;
@@ -228,6 +269,7 @@ body {
 
   #introHello {
     font-size: 20px !important;
+    margin-left: 6px !important;
   }
 
   #introName {
@@ -477,6 +519,10 @@ body {
 
   #transSkillsTitle {
     font-size: 20px !important;
+  }
+
+  .carousel-item {
+    
   }
 }
 

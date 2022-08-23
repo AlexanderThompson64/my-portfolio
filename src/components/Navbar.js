@@ -69,11 +69,10 @@ const Navbar = () => {
                   <Link
                     className="nav-link mb-2"
                     aria-current="false"
-                    to="Intro"
+                    href="/"
+                    to="spacerHome"
                     spy={true}
                     smooth={false}
-                    href="/"
-                    
                   >
                     Home
                   </Link>
@@ -108,7 +107,7 @@ const Navbar = () => {
                   <Link
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
-                    to="Projects"
+                    to="spacer3"
                     spy={true}
                     smooth={false}
                     className="nav-link mb-2"

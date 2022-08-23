@@ -1,3 +1,5 @@
+import Spacer from "./Spacer";
+
 const Intro = () => {
   return (
     <div className="Intro">
