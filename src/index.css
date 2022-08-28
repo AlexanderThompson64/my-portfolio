@@ -120,7 +120,7 @@ body {
 
 @media screen and (min-height: 600px) {
   .offcanvas-body {
-    margin-top: 60px !important;
+    margin-top: 50px !important;
   }
 }
 
@@ -130,7 +130,7 @@ body {
   }
   .offcanvas-body {
     font-size: 32px;
-    margin-top: 80px !important;
+    margin-top: 50px !important;
   }
 }
 

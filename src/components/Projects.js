@@ -32,7 +32,7 @@ const Projects = () => {
           style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
-            Charity Mobile Application
+            IOS / Android Mobile Application
           </h1>
 
           <p className="projectsP">
@@ -48,7 +48,7 @@ const Projects = () => {
           </p>
           <div className="container d-flex justify-content-center">
             <a
-              href=""
+              href="/projects/0"
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
@@ -77,7 +77,7 @@ const Projects = () => {
           </p>
           <div className="container d-flex justify-content-center">
             <a
-              href=""
+              href="/projects/1"
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
@@ -107,7 +107,7 @@ const Projects = () => {
 
           <div className="container d-flex justify-content-center">
             <a
-              href=""
+              href="/projects/2"
               className="projectsBtn btn btn-primary"
               style={{ width: "50%" }}
             >
