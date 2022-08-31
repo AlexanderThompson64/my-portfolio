@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import { JSONHeroPath } from "@jsonhero/path";
 import { data } from "../Data";
 import GetProjectId from "./GetProjectId";
@@ -8,7 +7,7 @@ const ProjectDataTech = () => {
   let tech = pathTech.all(data);
 
   return (
-    <div className="Project text-white">
+    <div className="projectTech text-white text-center">
       <h1>{tech}</h1>
     </div>
   );

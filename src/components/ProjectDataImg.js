@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import { JSONHeroPath } from "@jsonhero/path";
 import { data } from "../Data";
 import GetProjectId from "./GetProjectId";
@@ -8,7 +7,7 @@ const ProjectDataTech = () => {
   let img = pathImg.all(data);
 
   return (
-    <div className="Project text-white">
+    <div className="projectImg text-white text-center">
       <h1>{img}</h1>
     </div>
   );

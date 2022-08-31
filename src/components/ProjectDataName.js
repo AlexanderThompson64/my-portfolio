@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+
 import { JSONHeroPath } from "@jsonhero/path";
 import { data } from "../Data";
 import GetProjectId from "./GetProjectId";
@@ -8,8 +8,8 @@ const ProjectDataName = () => {
   let name = pathName.all(data);
 
   return (
-    <div className="Project text-white">
-      <h1>{name}</h1>
+    <div className="projectName text-white text-center">
+      <h1 id="pNameh1">{name}</h1>
     </div>
   );
 };

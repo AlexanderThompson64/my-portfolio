@@ -198,8 +198,6 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
-  .Intro {
-  }
 
   .btn-group {
     display: block !important;
@@ -520,10 +518,6 @@ body {
   #transSkillsTitle {
     font-size: 20px !important;
   }
-
-  .carousel-item {
-    
-  }
 }
 
 /* Skills Component Styling End */
@@ -641,7 +635,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
   #projectsTitle {
     font-size: 45px !important;
   }
@@ -679,3 +673,17 @@ body {
 }
 
 /* Footer Component Styling End */
+
+/* ProjectDataName Component Styling Start */
+
+#pNameh1 {
+  font-size: 35px !important;
+}
+
+/* ProjectDataName Component Styling End */
+
+/* ProjectDataImg Component Styling Start */
+
+
+
+/* ProjectDataImg Component Styling End */
