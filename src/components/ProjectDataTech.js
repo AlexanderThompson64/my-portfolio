@@ -7,7 +7,7 @@ const ProjectDataTech = () => {
   let tech = pathTech.all(data);
 
   return (
-    <div className="projectTech text-white text-center">
+    <div className="projectTech text-white text-center" style={{fontFamily: "anak"}}>
       <h1>{tech}</h1>
     </div>
   );

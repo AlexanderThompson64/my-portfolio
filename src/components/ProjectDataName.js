@@ -8,7 +8,7 @@ const ProjectDataName = () => {
   let name = pathName.all(data);
 
   return (
-    <div className="projectName text-white text-center">
+    <div className="projectName text-white text-center" style={{fontFamily: "anak"}}>
       <h1 id="pNameh1">{name}</h1>
     </div>
   );

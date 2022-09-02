@@ -29,7 +29,7 @@ const Projects = () => {
       <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
         <div
           className="projectCard container d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             IOS / Android Mobile Application
@@ -58,7 +58,7 @@ const Projects = () => {
         </div>
         <div
           className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Booking Manager Application
@@ -87,7 +87,7 @@ const Projects = () => {
         </div>
         <div
           className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "250px", backgroundColor: "#0F243D" }}
+          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Maintinance ticket system

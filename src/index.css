@@ -674,10 +674,18 @@ body {
 
 /* Footer Component Styling End */
 
-/* ProjectDataName Component Styling Start */
+/* ProjectDataImg Component Styling Start */
 
-#pNameh1 {
-  font-size: 35px !important;
+@media screen and (min-width: 1000px) {
+  .caraContainer {
+    height: 550px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .caraContainer {
+    height: 700px !important;
+  }
 }
 
 /* ProjectDataName Component Styling End */

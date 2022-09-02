@@ -1,13 +1,15 @@
 import iicAppImg from "./img/iicapp.png";
 import iicAppScreenshots from "./img/iicappscreenshots.png";
-
-// Styling for images must be done at image import level hence minor styling has been done here to ensure image is reponsive to the viewport.
+import BookingManagerAppScreenshot from "./img/bookingManagerAppScreenshot.png";
+import BookingManagerAppScreenshot2 from "./img/bookingManagerAppScreenshot2.png";
+import TicketAppScreenshot from "./img/ticketAppScreenshot.png"
+import TicketAppScreenshot2 from "./img/ticketAppScreenshot2.png"
 
 const desc0 = () => {
   return (
     <p>
       This application was built as part of a university project. The
-      application was written to specified client requirements. The apps’
+      application was written to specified client requirements. The apps’s
       purpose is to advertise and showcase the charity’s brand while also
       allowing the user to respond to invites for the charities events and
       allowing the charity to collate data on user participation. <br />
@@ -20,89 +22,36 @@ const desc0 = () => {
   );
 };
 
-const img0 = () => {
+const desc1 = () => {
   return (
-    <div className="img0" style={{marginTop: "-80px", marginBottom: "-50px"}}>
-      <div className="container">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          // data-bs-ride="carousel"
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-          </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active text-white">
-              <div
-                className="container d-flex justify-content-center align-items-center text-center"
-                style={{ height: "300px" }}
-              >
-                <img
-                  className="img-fluid rounded"
-                  style={{ maxWidth: "100%" }}
-                  src={iicAppImg}
-                  alt="mobile app project"
-                />
-              </div>
-            </div>
-            <div className="carousel-item text-white">
-              <div
-                className="container d-flex justify-content-center align-items-center"
-                style={{ height: "300px" }}
-              >
-                <img
-                  className="img-fluid"
-                  style={{ maxWidth: "100%" }}
-                  src={iicAppScreenshots}
-                  alt="mobile app project"
-                />
-              </div>
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev bg-primar"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-            
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
+    <p>
+      This booking manager application was created whilst at university. The
+      project was created as part of an assessment to demonstrate understanding
+      of polymorphism and Object-Oriented Programming.
+      <br />
+      <br />
+      The application makes use of an abstract class which is then inherited by
+      two other classes. This allows the user to create a booking for a room and
+      to then specify a type of booking when creating the booking. The user will
+      then be able to manage this through a list of bookings utilizing CRUD
+      features.
+    </p>
   );
 };
+
+const desc2 = () => {
+  return (
+    <p>
+      This application was created as part of an end of module assessment, the
+      purpose of this application is to demonstrate knowledge of the React
+      framework, REST Api’s and google firebase. <br/><br/> The application utilises CRUD
+      features to allow users to create tickets and administrators to update and
+      delete tickets.{" "}
+    </p>
+  );
+};
+
+// Styling for images must be done at image import level hence minor styling has been done here to ensure image is reponsive to the viewport.
 
 const data = {
   projects: [
@@ -110,7 +59,22 @@ const data = {
       id: 0,
       name: "IOS/Android Mobile Application",
       tech: "C# / Xammarin Forms / Visual Studio",
-      img: img0(),
+      img1: (
+        <img
+          className="img-fluid"
+          src={iicAppImg}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "85%" }}
+        />
+      ),
+      img2: (
+        <img
+          className="img-fluid"
+          src={iicAppScreenshots}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "85%" }}
+        />
+      ),
       description: desc0(),
     },
 
@@ -118,14 +82,46 @@ const data = {
       id: 1,
       name: "Booking Manager Application",
       tech: "C# / .NET / Polymorphism / Visual Studio / Rider",
-      img: ""
+      img1: (
+        <img
+          className="img-fluid mb-2"
+          src={BookingManagerAppScreenshot}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "80%" }}
+        />
+      ),
+      img2: (
+        <img
+          className="img-fluid"
+          src={BookingManagerAppScreenshot2}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "85%" }}
+        />
+      ),
+      description: desc1(),
     },
 
     {
       id: 2,
       name: "Maintinance ticket system",
       tech: "React / Firebase / Visual Studio",
-      img: <img src={iicAppImg} alt="maintiance ticket app project" />,
+      img1: (
+        <img
+          className="img-fluid"
+          src={TicketAppScreenshot}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "85%" }}
+        />
+      ),
+      img2: (
+        <img
+          className="img-fluid"
+          src={TicketAppScreenshot2}
+          alt="Crossplatform Mobile App"
+          style={{ maxWidth: "85%" }}
+        />
+      ),
+      description: desc2(),
     },
   ],
   count: 3,

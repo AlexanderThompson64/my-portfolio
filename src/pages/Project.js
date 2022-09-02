@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar.js";
+import ProjectPageNavbar from "../components/ProjectPageNavbar.js";
 import ProjectDataName from "../components/ProjectDataName.js";
 import ProjectDataTech from "../components/ProjectDataTech.js";
 import ProjectDataImg from "../components/ProjectDataImg.js";
@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 const Project = () => {
   return (
     <div className="Project text-white">
-      <Navbar/>
+      <ProjectPageNavbar/>
       <Spacer/>
       <ProjectDataName />
       <Spacer/>
