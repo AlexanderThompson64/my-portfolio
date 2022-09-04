@@ -57,6 +57,11 @@ body {
 /* Styling for Navbar component with media queries */
 /* Navbar Styling Start */
 
+.navbar {
+  backdrop-filter: blur(10px);
+  
+}
+
 .navbar-brand {
   font-size: 35px;
 }

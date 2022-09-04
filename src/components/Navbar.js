@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="Navbar">
       <nav
         className="navbar navbar-dark fixed-top"
-        style={{ backgroundColor: "#0b192e" }}
+        style={{}}
       >
         <div className="container-fluid">
           <a
