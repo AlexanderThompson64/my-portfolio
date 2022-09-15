@@ -3,10 +3,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <nav
-        className="navbar navbar-dark fixed-top"
-        style={{}}
-      >
+      <nav className="navbar navbar-dark fixed-top" style={{}}>
         <div className="container-fluid">
           <a
             className="navbar-brand ms-4"
