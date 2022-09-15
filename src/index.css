@@ -58,8 +58,7 @@ body {
 /* Navbar Styling Start */
 
 .navbar {
-  backdrop-filter: blur(10px);
-  
+  background-color: #0b192e;
 }
 
 .navbar-brand {

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-dark fixed-top" style={{}}>
+      <nav className="navbar navbar-dark fixed-top">
         <div className="container-fluid">
           <a
             className="navbar-brand ms-4"
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-
+              
             <div
               className="offcanvas-body lead"
               style={{ backgroundColor: "#0b192e", fontFamily: "anak" }}
