@@ -89,7 +89,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .offcanvas {
     width: 30% !important;
   }
@@ -209,32 +209,32 @@ body {
   }
 
   #btn-github {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   #btn-linkedin {
-    font-size: 20px;
+    font-size: 14px;
   }
   #introHello {
-    font-size: 20px !important;
+    font-size: 16px !important;
   }
 
   #introName {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #introTitle {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #introParagraph {
-    font-size: 20px !important;
+    font-size: 16px !important;
   }
 }
 
 @media screen and (min-width: 1300px) {
   #btn-linkedin {
-    font-size: 22px !important;
+    font-size: 18px !important;
   }
 
   #btn-instagram {
@@ -248,19 +248,19 @@ body {
     font-size: 22px !important;
   }
   #introHello {
-    font-size: 30px !important;
+    font-size: 22px !important;
   }
 
   #introName {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   #introTitle {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   #introParagraph {
-    font-size: 26px !important;
+    font-size: 20px !important;
   }
 }
 

@@ -28,6 +28,36 @@ const Projects = () => {
       <br />
       <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
         <div
+          className="projectCard container mb-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+        >
+          <h1 className="projectTitles" style={{ fontSize: "22px" }}>
+            Maintinance ticket system
+          </h1>
+
+          <p className="projectsP">
+            React web app, built to manage and maintain tickets raised for local
+            park maintenance.
+          </p>
+
+          <p className="projectsP">
+            Technologies - <br />
+            <span style={{ color: "#64ffda" }}>
+              React / Firebase / Visual Studio
+            </span>
+          </p>
+
+          <div className="container d-flex justify-content-center">
+            <a
+              href="/projects/2"
+              className="projectsBtn btn btn-primary"
+              style={{ width: "50%" }}
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div
           className="projectCard container d-flex flex-column justify-content-center rounded"
           style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
@@ -48,7 +78,7 @@ const Projects = () => {
           </p>
           <div className="container d-flex justify-content-center">
             <a
-              href="/projects/0"
+              href="https://github.com/AlexanderThompson64/ICCAPP"
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
@@ -85,36 +115,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div
-          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
-        >
-          <h1 className="projectTitles" style={{ fontSize: "22px" }}>
-            Maintinance ticket system
-          </h1>
 
-          <p className="projectsP">
-            React web app, built to manage and maintain tickets raised for local
-            park maintenance.
-          </p>
-
-          <p className="projectsP">
-            Technologies - <br />
-            <span style={{ color: "#64ffda" }}>
-              React / Firebase / Visual Studio
-            </span>
-          </p>
-
-          <div className="container d-flex justify-content-center">
-            <a
-              href="/projects/2"
-              className="projectsBtn btn btn-primary"
-              style={{ width: "50%" }}
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
