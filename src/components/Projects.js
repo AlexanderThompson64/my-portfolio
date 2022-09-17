@@ -107,7 +107,7 @@ const Projects = () => {
           </p>
           <div className="container d-flex justify-content-center">
             <a
-              href="/projects/1"
+              href="https://github.com/AlexanderThompson64/UoRBookingSystem"
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
