@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Alexander Thompson - Proffesional Portfolio
 
 If you would like to build this portolio for yourself or have any questions then I would be happy answer. 
 
