@@ -187,6 +187,9 @@ body {
 /* Intro Component Styling Start */
 
 @media screen and (min-width: 700px) {
+  .Intro {
+    padding-left: 20px;
+  }
   .btn-group {
     display: block !important;
     margin-top: 15px;
