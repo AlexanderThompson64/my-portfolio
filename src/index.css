@@ -216,7 +216,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .btn-group {
     display: block !important;
     margin-top: 20px;
@@ -244,9 +244,9 @@ body {
   #introParagraph {
     font-size: 16px !important;
   }
-}
+} */
 
-@media screen and (min-width: 1300px) {
+/* @media screen and (min-width: 1300px) {
   #btn-linkedin {
     font-size: 18px !important;
   }
@@ -276,7 +276,7 @@ body {
   #introParagraph {
     font-size: 20px !important;
   }
-}
+} */
 
 @media screen and (min-width: 1500px) {
   .Intro {
@@ -343,7 +343,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   #aboutHeader {
     font-size: 50px !important;
   }
@@ -351,23 +351,23 @@ body {
   #aboutP {
     font-size: 20px !important;
   }
-}
+} */
 
-@media screen and (min-width: 1300px) {
+/* @media screen and (min-width: 1300px) {
   #aboutHeader {
     font-size: 50px !important;
   }
 
   #aboutP {
-    font-size: 26px !important;
+    font-size: 18px !important;
   }
 
   #techStack {
     font-size: 26px !important;
   }
-}
+} */
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1300px) {
   #aboutHeader {
     font-size: 40px !important;
     margin-left: 10% !important;
@@ -422,7 +422,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   #skillsP {
     font-size: 20px !important;
   }
@@ -488,7 +488,7 @@ body {
   #transSkillsList {
     font-size: 22px !important;
   }
-}
+} */
 
 @media screen and (min-width: 1500px) {
   #skillsP {
@@ -561,7 +561,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   #uniName {
     font-size: 28px !important;
   }
@@ -583,7 +583,7 @@ body {
   #educationTitle {
     font-size: 50px !important;
   }
-}
+} */
 
 @media screen and (min-width: 1500px) {
   #educationTitle {
