@@ -1,4 +1,3 @@
-import aleximg from "../img/Alex.jpeg";
 import webDevImg from "../img/htmlimg.png";
 import mobileDevImg from "../img/cfr.png";
 import designImg from "../img/figmaxd.png";
@@ -19,8 +18,8 @@ const Skills = () => {
           }}
         />
       </div>
-      <div className="container-fluid text-center">
-        <p className="mb-5" style={{ fontSize: "18px" }} id="skillsP">
+      <div className="container-fluid text-center d-flex justify-content-center">
+        <p className="mb-5" style={{ fontSize: "18px", width: "80%" }} id="skillsP">
           <h1
             className="d-none"
             id="skillsHeaderDesktop"

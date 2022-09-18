@@ -28,8 +28,8 @@ const Projects = () => {
       <br />
       <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
         <div
-          className="projectCard container mb-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          className="projectCard text-center container mb-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Maintinance ticket system
@@ -49,7 +49,7 @@ const Projects = () => {
 
           <div className="container d-flex justify-content-center">
             <a
-              href="/projects/2"
+              href="https://ticket-system-265d4.firebaseapp.com/"
               className="projectsBtn btn btn-primary"
               style={{ width: "50%" }}
             >
@@ -58,8 +58,8 @@ const Projects = () => {
           </div>
         </div>
         <div
-          className="projectCard container d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          className="projectCard text-center container d-flex flex-column justify-content-center rounded"
+          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             IOS / Android Mobile Application
@@ -87,8 +87,8 @@ const Projects = () => {
           </div>
         </div>
         <div
-          className="projectCard container mt-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "90%", height: "300px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          className="projectCard text-center container mt-5 d-flex flex-column justify-content-center rounded"
+          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Booking Manager Application

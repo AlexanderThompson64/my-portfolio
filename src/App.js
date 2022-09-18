@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
-import Project from "./pages/Project";
+
+
 
 import {
   BrowserRouter as Router,
@@ -12,11 +13,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects/:projectId" element={<Project />} />
       </Routes>
     </Router>
 
-    
+
   );
 }
 
