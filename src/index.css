@@ -35,7 +35,7 @@ body {
 
 @media screen and (min-width: 1000px) {
   .Home {
-    position: absolute;
+    position: absolute !important;
   }
 }
 
