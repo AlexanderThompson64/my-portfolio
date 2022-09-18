@@ -1,4 +1,4 @@
-# Alexander Thompson - Proffesional Portfolio
+# Alexander Thompson - Professional Portfolio
 
 If you would like to build this portolio for yourself or have any questions then I would be happy answer. 
 
