@@ -27,17 +27,19 @@ body {
   background-color: #0b192e;
 }
 
-
-
-
-
 @media screen and (min-width: 700px) {
   .Home {
     position: absolute;
   }
-  
+
   .spacer {
     display: block !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Home {
+    position: absolute;
   }
 }
 
@@ -67,7 +69,6 @@ body {
 
 .navbar {
   background-color: #0b192e;
-  
 }
 
 .navbar-brand {
@@ -80,7 +81,6 @@ body {
 
 .offcanvas-body {
   font-size: 28px;
-  
 }
 
 @media screen and (min-width: 700px) {
