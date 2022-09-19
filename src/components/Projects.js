@@ -29,7 +29,7 @@ const Projects = () => {
       <div className="desktopProjectsContainer container d-xxl-flex align-items-center">
         <div
           className="projectCard text-center container mb-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          style={{ width: "90%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Maintinance ticket system
@@ -59,7 +59,7 @@ const Projects = () => {
         </div>
         <div
           className="projectCard text-center container d-flex flex-column justify-content-center rounded"
-          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          style={{ width: "90%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             IOS / Android Mobile Application
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
         <div
           className="projectCard text-center container mt-5 d-flex flex-column justify-content-center rounded"
-          style={{ width: "80%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+          style={{ width: "90%", height: "310px", backgroundColor: "#0F243D", boxShadow: " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
         >
           <h1 className="projectTitles" style={{ fontSize: "22px" }}>
             Booking Manager Application

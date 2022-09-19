@@ -603,6 +603,16 @@ body {
 
 /* Projects Component Styling Start */
 
+.projectCard {
+  transition: transform .2s;
+}
+
+.projectCard:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
 @media screen and (min-width: 700px) {
   #projectsTitle {
     font-size: 40px !important;
@@ -620,6 +630,7 @@ body {
 
   .projectCard {
     height: 350px !important;
+    width: 60% !important;
   }
 }
 
