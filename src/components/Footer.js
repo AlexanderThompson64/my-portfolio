@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="Footer">
       <div className="container d-flex justify-content-center">
-        <div className="footerIcons" id="offcanvasIcons" style={{fontSize: "30px"}}>
+        <div className="footerIcons" style={{fontSize: "30px"}}>
           <a
             href="https://github.com/AlexanderThompson64"
             className="bi bi-github me-4"
