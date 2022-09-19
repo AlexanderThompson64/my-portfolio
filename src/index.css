@@ -204,14 +204,15 @@ body {
 
   #introParagraph {
     font-size: 18px !important;
+    width: 70% !important;
   }
 
   #introName {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   #introTitle {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 
