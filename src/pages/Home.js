@@ -6,10 +6,12 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import Spacer from "../components/Spacer";
 
+
 const Home = () => {
+
   return (
     <div className="Home">
-      <Navbar />
+      <Navbar/>
       <div className="spacer" id="spacerHome"><Spacer /></div>
       <Intro />
       <div className="spacer " id="spacer1"><Spacer /></div>
@@ -23,5 +25,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;

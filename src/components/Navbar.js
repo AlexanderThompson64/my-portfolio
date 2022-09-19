@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-              
+
             <div
               className="offcanvas-body lead"
               style={{ backgroundColor: "#0b192e", fontFamily: "anak" }}

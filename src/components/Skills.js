@@ -19,7 +19,7 @@ const Skills = () => {
         />
       </div>
       <div className="container-fluid text-center d-flex justify-content-center">
-        <p className="mb-5" style={{ fontSize: "18px", width: "80%" }} id="skillsP">
+        <div className="mb-5" style={{ fontSize: "18px", width: "80%" }} id="skillsP">
           <h1
             className="d-none"
             id="skillsHeaderDesktop"
@@ -34,7 +34,7 @@ const Skills = () => {
           employment over my years in fast paced driven environments.
           <br />
           <br />
-        </p>
+        </div>
       </div>
       <div className="container">
         <div
@@ -72,7 +72,7 @@ const Skills = () => {
 
                 <img
                   src={webDevImg}
-                  class="d-block rounded mx-auto img-fluid mb-5 "
+                  className="d-block rounded mx-auto img-fluid mb-5 "
                   style={{ maxWidth: "300px" }}
                   alt="..."
                 />
@@ -85,7 +85,7 @@ const Skills = () => {
                 <div className="container d-flex flex-column justify-content-center" style={{height: "300px"}}>
                 <img
                   src={mobileDevImg}
-                  class="d-block rounded mx-auto mb-5 "
+                  className="d-block rounded mx-auto mb-5 "
                   style={{ maxWidth: "300px", paddingRight: "20px" }}
                   alt="..."
                 />
@@ -98,7 +98,7 @@ const Skills = () => {
                 <div className="container d-flex flex-column justify-content-center" style={{height: "300px"}}>
                   <img
                     src={designImg}
-                    class="d-block rounded mx-auto mb-5 "
+                    className="d-block rounded mx-auto mb-5 "
                     style={{ maxWidth: "300px", paddingRight: "45px" }}
                     alt="..."
                   />
