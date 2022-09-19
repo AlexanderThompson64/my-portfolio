@@ -58,13 +58,14 @@ const Navbar = () => {
             </div>
 
             <div
-              className="offcanvas-body lead"
+              className="offcanvas-body lead d-flex flex-column"
               style={{ backgroundColor: "#0b192e", fontFamily: "anak" }}
             >
-              <ul className="navbar-nav justify-content-end text-center flex-grow-1">
+              <ul className="navbar-nav justify-content-center text-center flex-grow-1">
                 <li className="nav-item">
                   <Link
                     className="nav-link mb-2"
+                    data-bs-dismiss="offcanvas"
                     aria-current="false"
                     href="/"
                     to="spacerHome"

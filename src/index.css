@@ -132,7 +132,7 @@ body {
 
 @media screen and (min-height: 600px) {
   .offcanvas-body {
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 }
 
@@ -142,11 +142,11 @@ body {
   }
   .offcanvas-body {
     font-size: 32px;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 }
 
-@media screen and (min-height: 700px) and (min-width: 400px) {
+/* @media screen and (min-height: 700px) and (min-width: 400px) {
   .offcanvas-title {
     font-size: 55px;
   }
@@ -154,9 +154,9 @@ body {
     font-size: 34px;
     margin-top: 60px !important;
   }
-}
+} */
 
-@media screen and (min-height: 1000px) {
+/* @media screen and (min-height: 1000px) {
   .offcanvas-title {
     margin-top: 60px;
     font-size: 55px;
@@ -176,7 +176,7 @@ body {
     font-size: 32px;
     margin-top: 80px;
   }
-}
+} */
 
 /* Navbar Component Styling End */
 
