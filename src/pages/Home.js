@@ -6,7 +6,6 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import Spacer from "../components/Spacer";
 
-
 const Home = () => {
 
   return (
