@@ -53,7 +53,7 @@ const Projects = () => {
               className="projectsBtn btn btn-primary"
               style={{ width: "50%" }}
             >
-              Learn more
+              learn more
             </a>
           </div>
         </div>
@@ -82,7 +82,7 @@ const Projects = () => {
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
-              Learn More
+              learn more
             </a>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Projects = () => {
               className="projectsBtn btn btn-primary"
               style={{ color: "white", width: "50%" }}
             >
-              Learn More
+              learn more
             </a>
           </div>
         </div>
