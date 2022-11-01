@@ -317,6 +317,45 @@ body {
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .Intro {
+    padding-left: 200px;
+  }
+
+  #introHello {
+    font-size: 20px !important;
+    margin-left: 6px !important;
+  }
+
+  #introName {
+    margin-bottom: -10px !important;
+  }
+
+  #introTitle {
+    margin-bottom: 0 !important;
+  }
+
+  #introParagraph {
+    font-size: 18px !important;
+    padding-right: 700px !important;
+  }
+
+  #btn-linkedin {
+    font-size: 18px !important;
+  }
+
+  #btn-instagram {
+    font-size: 18px !important;
+  }
+  #btn-github {
+    font-size: 18px !important;
+  }
+
+  #btn-linkedin {
+    font-size: 18px !important;
+  }
+}
+
 /* Intro Component Styling End */
 
 /* About Component Styling Start */
@@ -368,6 +407,26 @@ body {
 } */
 
 @media screen and (min-width: 1300px) {
+  #aboutHeader {
+    font-size: 40px !important;
+    margin-left: 10% !important;
+  }
+
+  #aboutP {
+    font-size: 18px !important;
+  }
+
+  #techStack {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .About {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+
   #aboutHeader {
     font-size: 40px !important;
     margin-left: 10% !important;
@@ -604,13 +663,13 @@ body {
 /* Projects Component Styling Start */
 
 .projectCard {
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .projectCard:hover {
   -ms-transform: scale(0.5); /* IE 9 */
   -webkit-transform: scale(0.5); /* Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 700px) {
